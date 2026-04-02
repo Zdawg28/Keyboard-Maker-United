@@ -642,22 +642,13 @@
       {
         "filename": "IEEE Keyboard Project.kicad_sch",
         "name": "IEEE Keyboard Project",
-        "uuid": "1326de95-4611-4e9e-931b-786dc6d020f2"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "MX1-56,LED1,D1-56",
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "1326de95-4611-4e9e-931b-786dc6d020f2",
-      "IEEE Keyboard Project"
-    ],
-    [
-      "704be187-8ca8-4355-893a-39dd7f3f5498",
-      "USB"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
