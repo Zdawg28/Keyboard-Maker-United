@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -56,7 +56,7 @@
   },
   "git": {
     "integration_disabled": false,
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
     "ssh_key": ""
   },
@@ -90,16 +90,16 @@
       9
     ],
     "col_widths": [
-      62,
-      59,
-      81,
-      67,
-      71,
+      70,
+      70,
+      98,
+      79,
+      85,
+      99,
+      87,
       83,
-      72,
-      71,
-      39,
-      40
+      42,
+      82
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

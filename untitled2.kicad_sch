@@ -415,7 +415,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
+		(symbol "NCP1117-3.3_SOT223_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -497,7 +497,7 @@
 					)
 				)
 			)
-			(symbol "NCP1117-3.3_SOT223_0_1"
+			(symbol "NCP1117-3.3_SOT223_1_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -510,7 +510,7 @@
 					)
 				)
 			)
-			(symbol "NCP1117-3.3_SOT223_1_1"
+			(symbol "NCP1117-3.3_SOT223_1_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1169,12 +1169,8 @@
 		)
 		(symbol "power:+3V3"
 			(power global)
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1288,7 +1284,8 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name ""
+					(hide yes)
+					(name "+3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1413,121 +1410,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1928,7 +1810,7 @@
 		)
 		(uuid "f3542816-3886-4482-9e44-ffe17fd566ac")
 	)
-	(global_label "USB_D+"
+	(global_label "USB_D+2"
 		(shape input)
 		(at 76.2 57.15 0)
 		(fields_autoplaced yes)
@@ -1940,7 +1822,7 @@
 		)
 		(uuid "11cee25d-785c-41b7-9415-db45f6a80c22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8052 57.15 0)
+			(at 88.0147 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,7 +1834,7 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
+	(global_label "USB_D-2"
 		(shape input)
 		(at 76.2 62.23 0)
 		(fields_autoplaced yes)
@@ -1964,7 +1846,7 @@
 		)
 		(uuid "a95b22af-011f-4e25-8f4e-fc529d9dc20a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8052 62.23 0)
+			(at 88.0147 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +1869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c15b5b8-0176-4806-9223-24183373357d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR043"
 			(at 134.62 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2045,8 +1927,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR06")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2063,7 +1945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bc7f623-c37b-48c4-8be4-6c461a36031b")
-		(property "Reference" "C2"
+		(property "Reference" "C34"
 			(at 137.541 48.3616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,86 +2007,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 134.62 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21957928-ab97-47d1-8ab4-ab5e2eb3a454")
-		(property "Reference" "#FLG07"
-			(at 134.62 42.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 134.62 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 134.62 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4fc800da-d6c1-40e4-9a74-e676aa7ceb8c")
-		)
-		(instances
-			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#FLG07")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -2223,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27fc59cb-347b-4d43-8a90-9e9b59c58c39")
-		(property "Reference" "P3"
+		(property "Reference" "P4"
 			(at 50.8 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,8 +2121,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "P3")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -2337,7 +2141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3328e6cd-d2f7-4e70-8de2-e621ec577389")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 43.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2396,8 +2200,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR04")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2414,7 +2218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ec3d291-8ee9-46b4-8efa-b7343953eebe")
-		(property "Reference" "R4"
+		(property "Reference" "R16"
 			(at 77.47 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,8 +2279,92 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "R4")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NCP1117-3.3_SOT223_1")
+		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
+		(at 152.4 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45a193f9-64fe-4dd8-85d4-95fae9591cd4")
+		(property "Reference" "U5"
+			(at 152.4 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP1117-3.3_SOT223"
+			(at 152.4 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 152.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 154.94 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+			(at 152.4 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51088ca3-ee49-4205-af3a-28f47766d3d3")
+		)
+		(pin "2"
+			(uuid "a8201f1a-0fda-4618-8a1f-592a3daff810")
+		)
+		(pin "3"
+			(uuid "05c890f0-2e96-41a8-86a7-0837333df314")
+		)
+		(instances
+			(project "IEEE Keyboard Project"
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2493,7 +2381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "545be7dc-4d4f-4616-8ca2-e0942e34986c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR040"
 			(at 99.06 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2551,8 +2439,84 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR07")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 170.18 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5bd40bb9-8f14-408f-bf23-5dda2ced11e6")
+		(property "Reference" "#PWR045"
+			(at 170.18 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.561 38.7858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69024325-b542-44bd-8f03-635a096f9d93")
+		)
+		(instances
+			(project "IEEE Keyboard Project"
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695a8a56-df2a-45e8-9c95-1f40d559c0e2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 129.54 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2629,8 +2593,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR02")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2647,7 +2611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91696781-954d-4710-a6e5-fb06761d5199")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR044"
 			(at 152.4 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2705,8 +2669,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR09")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2723,7 +2687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7db71d4-98b3-465c-ac62-3265aa28c7ad")
-		(property "Reference" "C6"
+		(property "Reference" "C35"
 			(at 173.101 48.3616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,8 +2749,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "C6")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1a0766f-0e01-4099-9cca-0f2ed4bcd5b7")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 77.216 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,169 +2828,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
-		(at 152.4 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d193bf85-3582-4795-848c-238eb4dd7ff1")
-		(property "Reference" "U3"
-			(at 152.4 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117-3.3_SOT223"
-			(at 152.4 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 152.4 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 154.94 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
-			(at 152.4 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c152a4c-9011-49da-8c9e-449fde2214a3")
-		)
-		(pin "1"
-			(uuid "6d28a037-7752-424c-9ed5-fdcd8bfd53b5")
-		)
-		(pin "3"
-			(uuid "ca64e0e4-0484-41c8-be59-7225a08823cc")
-		)
-		(instances
-			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 170.18 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d60e2808-f628-40e3-997b-83eb6b8afff3")
-		(property "Reference" "#PWR05"
-			(at 170.18 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 170.18 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 170.18 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f8cab90-d03a-4d73-9960-b1a36eb5f84e")
-		)
-		(instances
-			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR05")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3043,7 +2846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9a047d3-59d3-44a5-8117-8099eedbc088")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR041"
 			(at 99.06 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3101,8 +2904,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR014")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3119,7 +2922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f831e38e-7f22-43c5-9c5d-740d7053aa48")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR046"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3177,8 +2980,8 @@
 		)
 		(instances
 			(project "IEEE Keyboard Project"
-				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/704be187-8ca8-4355-893a-39dd7f3f5498"
-					(reference "#PWR013")
+				(path "/1326de95-4611-4e9e-931b-786dc6d020f2/80214d4a-78de-4f4e-9d2b-afd07566aeef"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
