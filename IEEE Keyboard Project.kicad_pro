@@ -645,7 +645,7 @@
         "uuid": "1326de95-4611-4e9e-931b-786dc6d020f2"
       }
     ],
-    "used_designators": "L3-4,SW5,U3-6,R12,R15-16,P2-4,D1-57,C5,C20,C34-39,J1-2,#FLG1-7,Y3-6,#PWR1-3,#PWR5,#PWR11-12,#PWR16,#PWR26,#PWR28,#PWR39-54",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
