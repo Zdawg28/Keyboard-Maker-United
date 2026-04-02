@@ -645,7 +645,7 @@
         "uuid": "1326de95-4611-4e9e-931b-786dc6d020f2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "MX1-56,LED1,D1-56",
     "variants": []
   },
   "sheets": [
@@ -656,10 +656,6 @@
     [
       "704be187-8ca8-4355-893a-39dd7f3f5498",
       "USB"
-    ],
-    [
-      "cd3990c5-f12c-46d4-a8a7-ee9d636ac369",
-      "Keyboard Matrix"
     ]
   ],
   "text_variables": {},
