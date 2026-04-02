@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 2.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -645,7 +645,7 @@
         "uuid": "1326de95-4611-4e9e-931b-786dc6d020f2"
       }
     ],
-    "used_designators": "MX1-56,LED1,D1-56",
+    "used_designators": "L3-4,SW5,U3-6,R12,R15-16,P2-4,D1-57,C5,C20,C34-39,J1-2,#FLG1-7,Y3-6,#PWR1-3,#PWR5,#PWR11-12,#PWR16,#PWR26,#PWR28,#PWR39-54",
     "variants": []
   },
   "sheets": [
@@ -656,6 +656,14 @@
     [
       "704be187-8ca8-4355-893a-39dd7f3f5498",
       "USB"
+    ],
+    [
+      "80214d4a-78de-4f4e-9d2b-afd07566aeef",
+      "USB2"
+    ],
+    [
+      "cd3990c5-f12c-46d4-a8a7-ee9d636ac369",
+      "Keyboard Matrix"
     ]
   ],
   "text_variables": {},
